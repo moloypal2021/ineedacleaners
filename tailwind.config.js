@@ -15,6 +15,7 @@ module.exports = {
         dark: {
           10: "#464646",
           20: "#232323",
+          30: "#414141",
         },
         blue: {
           10: "#1654A1",
@@ -22,6 +23,9 @@ module.exports = {
         green: {
           10: "#86C76D",
         },
+      },
+      boxShadow: {
+        10: "7px 7px 0px rgba(0, 0, 0, 0.25)",
       },
       dropShadow: {
         10: "7px 7px 0px rgba(0, 0, 0, 0.25)",
