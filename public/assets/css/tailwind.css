@@ -578,6 +578,9 @@ body{
 .h-36{
 	height: 9rem;
 }
+.h-96{
+	height: 24rem;
+}
 .w-full{
 	width: 100%;
 }
@@ -670,6 +673,15 @@ body{
 	--tw-bg-opacity: 1;
 	background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
+.bg-opacity-50{
+	--tw-bg-opacity: 0.5;
+}
+.bg-cover{
+	background-size: cover;
+}
+.bg-center{
+	background-position: center;
+}
 .fill-current{
 	fill: currentColor;
 }
@@ -723,6 +735,10 @@ body{
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
+.py-24{
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+}
 .pr-4{
 	padding-right: 1rem;
 }
@@ -731,6 +747,9 @@ body{
 }
 .pr-10{
 	padding-right: 2.5rem;
+}
+.pt-12{
+	padding-top: 3rem;
 }
 .text-center{
 	text-align: center;
@@ -773,6 +792,9 @@ body{
 }
 .font-normal{
 	font-weight: 400;
+}
+.font-medium{
+	font-weight: 500;
 }
 .italic{
 	font-style: italic;
@@ -887,6 +909,9 @@ body{
 		padding-top: 3.5rem;
 		padding-bottom: 3.5rem;
 	}
+	.sm\:pt-14{
+		padding-top: 3.5rem;
+	}
 	.sm\:text-4xl{
 		font-size: 2.25rem;
 		line-height: 2.5rem;
@@ -934,6 +959,9 @@ body{
 	.md\:py-16{
 		padding-top: 4rem;
 		padding-bottom: 4rem;
+	}
+	.md\:pt-16{
+		padding-top: 4rem;
 	}
 	.md\:text-5xl{
 		font-size: 3rem;
@@ -1024,6 +1052,9 @@ body{
 	.lg\:pr-0{
 		padding-right: 0px;
 	}
+	.lg\:pt-20{
+		padding-top: 5rem;
+	}
 	.lg\:text-lg{
 		font-size: 1.125rem;
 		line-height: 1.75rem;
@@ -1068,6 +1099,9 @@ body{
 	}
 	.xl\:pr-0{
 		padding-right: 0px;
+	}
+	.xl\:pt-24{
+		padding-top: 6rem;
 	}
 	.xl\:text-xl{
 		font-size: 1.25rem;
