@@ -11,6 +11,7 @@ module.exports = {
         light: {
           10: "#F9F9F9",
           20: "#EDEDED",
+          30: "#A8A7AF",
         },
         dark: {
           10: "#464646",
@@ -38,5 +39,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };
